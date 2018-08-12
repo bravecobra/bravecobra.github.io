@@ -4,5 +4,3 @@ Gemfile.lock
 .sass-cache
 *.gem
 package-lock.json
-*.gemspec
-screenshot.png
