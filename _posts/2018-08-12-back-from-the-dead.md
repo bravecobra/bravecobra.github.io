@@ -5,7 +5,7 @@ subtitle: "Tales from the crypt!"
 date:   2018-08-12 22:14:00 +0100
 background: '/img/posts/06.jpg'
 ---
-It's been a while since I blogged. I've out a while, but, hey, I'm back!
+It's been a while since I blogged. I've been out a while, but, hey, I'm back!
 
 It hit me that after a couple of years, learning a lot along the way, it might be useful to some to share my experiences. Back in the day I was doing lots of PHP and Delphi, but I've moved on now.
 
