@@ -1,2 +1,9 @@
-_site/
+_site
+node_modules
 Gemfile.lock
+.sass-cache
+*.gem
+package-lock.json
+*.gemspec
+assets
+screenshot.png
