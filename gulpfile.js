@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-gulp.task('copy', function() {
+gulp.task('copy', function(done) {       
 
   // Start Bootstrap Clean Blog SCSS
   gulp.src(['node_modules/startbootstrap-clean-blog/scss/**/*'])
@@ -37,7 +37,12 @@ gulp.task('copy', function() {
     ])
     .pipe(gulp.dest('assets/vendor/font-awesome'))
 
-})
+    done()
+  }
+)
 
 // Default task
-gulp.task('default', ['copy']);
+gulp.task('default', gulp.series('copy', function(done) { 
+  // default task code here
+  done();
+}));
