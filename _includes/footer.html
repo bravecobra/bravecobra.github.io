@@ -38,7 +38,7 @@
           </li>
           {% endif %}
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }} {{site.git.last_commit.short_sha}} <link rel="stylesheet" href="/css/layout.css?{{ site.data['hash'] }}"/></p>
+        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }} sha: {{site.github.build_revision}}</p>
       </div>
     </div>
   </div>
