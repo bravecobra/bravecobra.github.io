@@ -30,7 +30,7 @@
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
         "popper.js": "1.14.7",
-        "startbootstrap-clean-blog": "5.0.2"
+        "startbootstrap-clean-blog": "5.0.3"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
